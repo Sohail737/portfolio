@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    margin:auto;
+}
+
+:root{
+    --primaryColour:#10B981;
+    --offwhite:#E5E7EB;
+}
+
+hr{
+    margin:1rem 0rem;
+}
+
+.container{
+    padding:0rem 1rem
+}
+
+.container-center{
+    max-width: 600px;
+    margin:auto;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primaryColour);
+    border-radius: 0.5rem;
+    color:white;
+}
+
+.link-secondary{
+    border:1px solid var(--primaryColour);
+    border-radius: 0.5rem;
+    color:var(--primaryColour)
+}
+
+.link-active{
+    font-weight:bold;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding:0rem 0.5rem;
+}
+
+.navigation{
+    background-color: var(--primaryColour);
+    color:white;
+    padding:1rem 0rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-heading{
+    font-weight: bold;
+}
+
+.navigation .nav-pills{
+    text-align: center;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation ul{
+    padding-inline-start: 0px;
+}
+
+.hero{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display:block;
+    margin:auto;
+}
+
+.hero .hero-heading{
+    text-align:center;
+}
+
+.section{
+    padding:2rem;
+}
+
+.ow{
+    background-color:var(--offwhite) ;
+}
+
+.footer{
+    padding:2rem 1rem;
+    background-color: var(--primaryColour);
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+    color:white
+}
+
+.footer .link{
+    color:white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}

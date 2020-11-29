@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css">
     <title>Sohail's Portfolio</title>
   </head>
   <body>
     <h2>@Header</h2>
-    <header>
-      <img src="images/undraw_static_assets_rpm6.svg" alt="" />
-      <h1>Welcome to Sohail's Portfolio</h1>
+    <header class="hero">
+      <img class="hero-img" src="images/javascript.svg" alt="" />
+      <h1 class="hero-heading">Welcome to Sohail's Portfolio</h1>
     </header>
 
     <hr />
@@ -18,17 +19,17 @@
     <h2>@Containers</h2>
 
     <h3>Fluid Container</h3>
-    <div>This is a fluid container, it runs till specified width</div>
+    <div class="container">This is a fluid container, it runs till specified width</div>
 
     <h3>Centered Container</h3>
-    <div>This is a centered container, this runs till specified width</div>
+    <div class="container container-center">This is a centered container, this runs till specified width</div>
 
     <hr />
 
     <h2>@Links</h2>
 
-    <a href="/">PrimaryLink</a>
-    <a href="/">SecondaryLink</a>
+    <a class="link link-primary" href="/">PrimaryLink</a>
+    <a class="link link-secondary" href="/">SecondaryLink</a>
 
     <hr />
 
@@ -36,7 +37,7 @@
 
     <h3>Unordered Lists</h3>
 
-    <ul>
+    <ul class="list-non-bullet">
       <li>First Item</li>
       <li>second Item</li>
       <li>Third Item</li>
@@ -46,17 +47,17 @@
 
     <p>Will make this inline using CSS</p>
 
-    <ul>
-      <li>First Item</li>
-      <li>second Item</li>
-      <li>Third Item</li>
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">First Item</li>
+      <li class="list-item-inline">second Item</li>
+      <li class="list-item-inline">Third Item</li>
     </ul>
 
     <h3>Ordered List</h3>
 
     <p>Will make this reverse in order by css</p>
 
-    <ol>
+    <ol reversed>
       <li>first ordered item</li>
       <li>second ordered item</li>
       <li>third ordered item</li>
@@ -66,18 +67,18 @@
 
     <h2>@nav</h2>
 
-    <nav>
-      <div>Sohail</div>
+    <nav class="navigation container">
+      <div class="nav-heading">Sohail</div>
 
-      <ul>
-        <li>
-          <a href="/">About</a>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">About</a>
         </li>
-        <li>
-          <a href="/">About</a>
+        <li class="list-item-inline">
+          <a class="link" href="/">Projects</a>
         </li>
-        <li>
-          <a href="/">About</a>
+        <li class="list-item-inline">
+          <a class="link"href="/">Blogs</a>
         </li>
       </ul>
     </nav>
@@ -86,32 +87,42 @@
 
     <h2>@Sections</h2>
 
-    <section>
-      <h3>White Section</h3>
-      <p>This section will have white background</p>
+    <section class="section">
+      <div class="container container-center">
+        <h3>White Section</h3>
+      <p>We are an open community of developers building resources for a better Web, regardless of brand, browser,
+        or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue
+        to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
+      </div>
+      
     </section>
 
-    <section>
-      <h3>Black Section</h3>
-      <p>This section will have black background</p>
+    <section class="section ow">
+      <div class="container container-center">
+        <h3>Offwhite Section</h3>
+      <p>We are an open community of developers building resources for a better Web, regardless of brand, browser,
+        or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue
+        to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
+      </div>
+      
     </section>
 
     <hr />
 
     <h2>@Footer</h2>
 
-    <footer>
-      <h3>Heading inside footer</h3>
+    <footer class="footer">
+      <div class="footer-header">Heading inside footer</div>
 
-      <ul>
-        <li>
-          <a href="/">Social1</a>
+      <ul class="list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="/">Social1</a>
         </li>
-        <li>
-          <a href="/">Social2</a>
+        <li class="list-item-inline">
+          <a class="link" href="/">Social2</a>
         </li>
-        <li>
-          <a href="/">Social3</a>
+        <li class="list-item-inline">
+          <a class="link" href="/">Social3</a>
         </li>
       </ul>
     </footer>
