@@ -6,8 +6,9 @@ body{
 }
 
 :root{
-    --primaryColour:#10B981;
+    --primaryColour:#34D399;
     --offwhite:#E5E7EB;
+    --gray:gray;
 }
 
 hr{
@@ -15,7 +16,7 @@ hr{
 }
 
 .container{
-    padding:0rem 1rem
+    padding:0rem 1rem;
 }
 
 .container-center{
@@ -26,6 +27,7 @@ hr{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    max-width: 1rem;
 }
 
 .link-primary{
@@ -56,11 +58,12 @@ hr{
 .navigation{
     background-color: var(--primaryColour);
     color:white;
-    padding:1rem 0rem;
+    padding:1rem;
     border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-heading{
+    font-size: large;
     font-weight: bold;
 }
 
@@ -70,10 +73,6 @@ hr{
 
 .navigation .link{
     color: white;
-}
-
-.navigation ul{
-    padding-inline-start: 0px;
 }
 
 .hero{
@@ -89,6 +88,11 @@ hr{
 
 .hero .hero-heading{
     text-align:center;
+    color:var(--gray)
+}
+
+.hero .hero-heading .heading-inverted{
+    color:var(--primaryColour);
 }
 
 .section{
@@ -108,8 +112,9 @@ hr{
 
 .footer .footer-header{
     font-weight: bold;
-    font-size: large;
-    color:white
+    font-size: medium;
+    color:white;
+    text-align: left;
 }
 
 .footer .link{
