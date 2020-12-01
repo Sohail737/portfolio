@@ -1,130 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="styles.css">
-    <title>Sohail's Portfolio</title>
-  </head>
-  <body>
-    <h2>@Header</h2>
-    <header class="hero">
-      <img class="hero-img" src="images/javascript.svg" alt="" />
-      <h1 class="hero-heading">Welcome to Sohail's Portfolio</h1>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navigation container">
+    <div class="nav-heading">IAMWebDeveloper</div>
+    <ul class="list-non-bullet nav-pills">
+      <li class="list-item-inline">
+        <a class="link link-active" href="/index.html">About</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="/projects.html">Projects</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link"href="/blogs.html">Blogs</a>
+      </li>
+    </ul>
+  </nav>
 
-    <hr />
+  <header class="hero">
+    <img class="hero-img" src="images/portfolio-img.svg" alt="" />
+    <h1 class="hero-heading">Welcome to <span class="heading-inverted">Sohail's</span> Portfolio</h1>
+  </header>
 
-    <h2>@Containers</h2>
+  <section class="section ow">
+    <div class="container container-center">
+      <h3>Get to know me</h3>
+    <p>I am a web developer working on node.js,sql server,angular,dotnet core.
+      I am learning pure HTML,CSS and Javascript.
+    </p>
+    </div>
+    
+  </section>
 
-    <h3>Fluid Container</h3>
-    <div class="container">This is a fluid container, it runs till specified width</div>
+  <section class="section">
+    <div class="container container-center">
+      <h3>Projects</h3>
+    <p>Here are some project I have worked on and some I have been working on. Do take a look</p>
+    <a class="link link-primary" href="/projects.html">See Projects</a>
+    </div>
+    
+  </section>
 
-    <h3>Centered Container</h3>
-    <div class="container container-center">This is a centered container, this runs till specified width</div>
+  <section class="section ow">
+    <div class="container container-center">
+      <h3>Blogs</h3>
+    <p>Recently started writing blogs. They're not so polished, but do give it a read.</p>
+    <a class="link link-secondary" href="/blogs.html">Read Blogs</a>
+    </div>
+    
+  </section>
 
-    <hr />
-
-    <h2>@Links</h2>
-
-    <a class="link link-primary" href="/">PrimaryLink</a>
-    <a class="link link-secondary" href="/">SecondaryLink</a>
-
-    <hr />
-
-    <h2>@Lists</h2>
-
-    <h3>Unordered Lists</h3>
+  <footer class="footer">
+    <div class="footer-header">Connect Socially</div>
 
     <ul class="list-non-bullet">
-      <li>First Item</li>
-      <li>second Item</li>
-      <li>Third Item</li>
+      <li class="list-item-inline">
+        <a class="link" href="https://github.com/Sohail737">github</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="https://www.linkedin.com/in/sohail-ansari-032062183/">linkedin</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="https://twitter.com/SohailA09324270">twitter</a>
+      </li>
     </ul>
-
-    <h3>Inline List</h3>
-
-    <p>Will make this inline using CSS</p>
-
-    <ul class="list-non-bullet">
-      <li class="list-item-inline">First Item</li>
-      <li class="list-item-inline">second Item</li>
-      <li class="list-item-inline">Third Item</li>
-    </ul>
-
-    <h3>Ordered List</h3>
-
-    <p>Will make this reverse in order by css</p>
-
-    <ol reversed>
-      <li>first ordered item</li>
-      <li>second ordered item</li>
-      <li>third ordered item</li>
-    </ol>
-
-    <hr />
-
-    <h2>@nav</h2>
-
-    <nav class="navigation container">
-      <div class="nav-heading">Sohail</div>
-
-      <ul class="list-non-bullet nav-pills">
-        <li class="list-item-inline">
-          <a class="link link-active" href="/">About</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="/">Projects</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link"href="/">Blogs</a>
-        </li>
-      </ul>
-    </nav>
-
-    <hr />
-
-    <h2>@Sections</h2>
-
-    <section class="section">
-      <div class="container container-center">
-        <h3>White Section</h3>
-      <p>We are an open community of developers building resources for a better Web, regardless of brand, browser,
-        or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue
-        to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
-      </div>
-      
-    </section>
-
-    <section class="section ow">
-      <div class="container container-center">
-        <h3>Offwhite Section</h3>
-      <p>We are an open community of developers building resources for a better Web, regardless of brand, browser,
-        or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue
-        to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
-      </div>
-      
-    </section>
-
-    <hr />
-
-    <h2>@Footer</h2>
-
-    <footer class="footer">
-      <div class="footer-header">Heading inside footer</div>
-
-      <ul class="list-non-bullet">
-        <li class="list-item-inline">
-          <a class="link" href="/">Social1</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="/">Social2</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="/">Social3</a>
-        </li>
-      </ul>
-    </footer>
-  </body>
+  </footer>
+</body>
 </html>
