@@ -75,7 +75,6 @@ hr{
 
 .navigation .link{
     color:var(--white);
-    letter-spacing: 0.1rem;
     text-transform: uppercase;
 }
 
