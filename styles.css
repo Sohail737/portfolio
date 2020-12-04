@@ -126,3 +126,7 @@ hr{
 .footer ul {
     padding-inline-start: 0px;
 }
+
+.list-reversed-margin{
+    margin:2rem 0rem;
+}
